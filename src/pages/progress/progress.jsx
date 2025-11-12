@@ -839,7 +839,7 @@ const MobileVerticalLayout = () => {
                 <p className="text-dark-blue space-grotesk-medium font-16 mb-0">
                   Your Progress So far
                 </p>
-                <p className='text-dark-blue font-20 space-grotesk-bold'>{ContextHomeDataAPI?.current_galaxy?.galaxy_name}</p>
+                <p className='text-dark-blue font-20 space-grotesk-bold text-uppercase'>{ContextHomeDataAPI?.current_galaxy?.galaxy_name}</p>
                 <div className="progress-sect rounded-4">
                   {/* Progress bar */}
 
