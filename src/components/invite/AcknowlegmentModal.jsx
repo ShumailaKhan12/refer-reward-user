@@ -204,7 +204,7 @@ const AcknowlegmentModal = ({ onClose }) => {
     setLoading(true);
     try {
       const payload = {
-        acknowledgemenet_Status: "Accepted",
+        acknowledgement_status: "Accepted",
       };
       const response = await postData(
         `/referral/acknowledge/${ref_id}/${referralData.mobile}`,
